@@ -5,10 +5,7 @@ const NavBar = () => {
   return (
     <header>
       <nav>
-        <Link href="/">
-          {" "}
-          <Image src="/logo.png" alt="logo" width={24} height={24} />
-        </Link>
+        <Link href="/">Julia M. S.</Link>
         <ul>
           <Link href="/"> Home </Link>
           <Link href="/"> Artigos </Link>

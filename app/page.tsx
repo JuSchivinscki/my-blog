@@ -1,6 +1,7 @@
 import ArticleCard from "@/components/articleCard";
 import ExploreButton from "../components/exploreButton";
 import { articleMD } from "@/lib/posts";
+import AboutAuthor from "../components/aboutAuthor";
 
 const Page = () => {
   const articles = articleMD();
@@ -17,13 +18,17 @@ const Page = () => {
       <ExploreButton />
       <div className="mt-20 space-y-7">
         <h3> Artigos recentes</h3>
-        <ul className="articles">
+        <ul className="articles list-none">
           {articles.map((article) => (
             <li key={article.title}>
               <ArticleCard {...article} />
             </li>
           ))}
         </ul>
+      </div>
+      <div className="mt-20 space-y-7">
+        <h3> Sobre a autora </h3>
+        <AboutAuthor />
       </div>
     </section>
   );

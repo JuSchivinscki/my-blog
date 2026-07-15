@@ -20,7 +20,9 @@ const ArticleCard = ({ title, image, slug, date }: Props) => {
         className="poster"
       />
 
-      <p className="title"> {title} </p>
+      <p className="whitespace-normal break-words text-lg font-semibold mt-2">
+        {title}
+      </p>
       <div className="datetime">
         <CalendarDays />
         <p> {date} </p>
