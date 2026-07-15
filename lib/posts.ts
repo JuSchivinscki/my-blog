@@ -26,3 +26,18 @@ export const articleMD = () => {
 
   return articlesContent;
 };
+
+export function getArticleBySlug(slug: string) {
+  const folderPath = path.join(process.cwd(), "posts");
+  const filePath = path.join(folderPath, `${slug}.md`);
+  const readFile = fs.readFileSync(filePath, "utf-8");
+  const contentArticle = matter(readFile);
+
+  return {
+    title: contentArticle.data.title,
+    content: contentArticle.content,
+    date: contentArticle.data.date,
+    image: contentArticle.data.image,
+    tags: contentArticle.data.tags,
+  };
+}
