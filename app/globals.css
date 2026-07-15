@@ -4,6 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
+  --color-pink: #ff94df;
   --color-blue: #94eaff;
   --color-light-100: #e7f2ff;
   --color-light-200: #bdbdbd;
@@ -45,6 +46,7 @@
 }
 
 @theme inline {
+  --color-pink: var(--color-pink);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-blue: var(--color-blue);
@@ -95,7 +97,7 @@
 }
 
 @utility text-gradient {
-  @apply to-blue bg-gradient-to-b from-white via-white bg-clip-text font-semibold text-transparent;
+  @apply to-pink bg-gradient-to-b from-white via-white bg-clip-text font-semibold text-transparent;
 }
 
 @utility glass {
@@ -148,7 +150,7 @@
   }
 
   header {
-    @apply glass sticky top-0 z-50;
+    @apply glass sticky top-4 z-50 mx-4 rounded-full border;
 
     nav {
       @apply flex flex-row justify-between mx-auto container sm:px-10 px-5 py-4;
@@ -179,7 +181,7 @@
     }
 
     .title {
-      @apply text-[20px] font-semibold line-clamp-1;
+      @apply text-[20px] font-semibold line-clamp-2;
     }
 
     p {
