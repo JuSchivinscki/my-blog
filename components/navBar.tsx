@@ -7,8 +7,13 @@ const NavBar = () => {
         <Link href="/">Julia M. S.</Link>
         <ul>
           <Link href="/"> Home </Link>
-          <Link href="/"> Artigos </Link>
-          <Link href="/"> Conecte-se comigo </Link>
+          <Link href="/articles"> Artigos </Link>
+          <Link
+            href="https://www.linkedin.com/in/juliaschivinscki"
+            target="_blank"
+          >
+            Conecte-se comigo
+          </Link>
         </ul>
       </nav>
     </header>

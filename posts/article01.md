@@ -6,10 +6,6 @@ draft: false
 image: "/article01.jpg"
 ---
 
-# Usando IA para criar projetos que realmente fazem sentido
-
-## Abertura
-
 Tentei algumas vezes usar a IA para me ajudar a criar projetos e ela ficava alucinando.
 
 Foi quando eu percebi que o problema era eu, e não ela.
@@ -20,8 +16,7 @@ A partir disso, percebi que, assim como elas, também podemos treinar a IA para 
 
 Foi aí que surgiu a ideia de usar a IA para me ajudar a criar projetos.
 
-
-## Contexto & Tensão
+---
 
 Existe um ciclo que praticamente todo desenvolvedor já viveu.
 
@@ -31,11 +26,9 @@ O loop é:
 
 E assim a ideia do projeto extraordinário nunca chega.
 
+---
 
-
-## Desenvolvimento
-
-A ideia perfeita não tinha chegado naquele dia.
+### A ideia perfeita não tinha chegado naquele dia.
 
 Conversando com meu pai, ele comentou um problema que percebe com frequência em clínicas médicas: agendas ociosas.
 
@@ -65,9 +58,9 @@ Mas...
 
 **E se fosse um cliente real?**
 
-## Virada ou Insight
+---
 
-Meu problema não era usar IA para planejar.
+### Meu problema não era usar IA para planejar.
 
 Era usar IA em um projeto que já estava grande demais, sem antes treiná-la para entender meu contexto.
 
@@ -99,8 +92,7 @@ Mas o comportamento mais importante que ensinei foi:
 
 > Nunca assumir. Sempre perguntar e confirmar antes de executar.
 
-
-## Prompt para praticar uma tecnologia específica
+### Prompt para praticar uma tecnologia específica
 
 ```
 Ative o project-simulation-system.
@@ -130,7 +122,7 @@ Aja como um cliente real contratando uma desenvolvedora.
 
 ---
 
-## Prompt para começar pelo problema
+### Prompt para começar pelo problema
 
 ```
 Ative o project-simulation-system.
@@ -153,7 +145,7 @@ Considere:
 Depois transforme o melhor problema em uma oportunidade de projeto.
 ```
 
-## O teste
+### O teste
 
 Para mostrar a diferença na prática, fiz o teste mais simples possível.
 
@@ -167,16 +159,15 @@ Estou estudando React.
 
 Crie um projeto para eu praticar.
 
-
 Mesmo assim, como ela já carregava meu contexto, a resposta foi completamente diferente.
 
 Em vez de entregar um projeto pronto, ela começou perguntando e confirmando informações antes de continuar.
 
-<!-- Inserir imagem 1 -->
+![Prompt claude](/article01/claude-prompt.png)
 
-<!-- Inserir imagem 2 -->
+![Resultado prompt claude](/article01/resultados-prompt-claude.png)
 
-<!-- Inserir imagem 3 -->
+![segundo resultado claude](/article01/segundo-resultado-prompt-claude.png)
 
 Já a IA sem treinamento respondeu assim:
 
@@ -213,7 +204,8 @@ No fim, o mais importante é que a IA saiba duas coisas:
 - onde você está;
 - para onde você quer chegar.
 
+---
 
-Escrito por uma desenvolvedora full stack em construção, documentando em público o que ninguém te conta sobre aprender tecnologia de verdade — sem papo de coach. 
+Escrito por uma desenvolvedora full stack em construção, documentando em público o que ninguém te conta sobre aprender tecnologia de verdade — sem papo de coach.
 
 Se este texto fez sentido para você, vamos nos conectar.

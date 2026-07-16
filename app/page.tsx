@@ -14,7 +14,7 @@ const Page = () => {
         Um espaço para acompanhar, de perto, o processo real de virar
         desenvolvedora
       </h1>
-      <h3 className="text-center mt-6 text-xl md:text-2xl text-pink-400 font-medium max-w-2xl">
+      <h3 className="text-center mt-6 text-xl md:text-2xl  font-medium max-w-2xl">
         {" "}
         com os acertos e as dúvidas no caminho.{" "}
       </h3>
